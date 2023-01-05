@@ -7,7 +7,7 @@
  * @author Luboš Pavlíček
  * @version září 2005
  */
-public class CD extends Polozka
+public class CD extends AbastractMedium
 {
     private String umelec;
     private int pocetSkladeb;
@@ -44,5 +44,10 @@ public class CD extends Polozka
         System.out.println("    " + umelec);
         System.out.println("    počet skladeb: " + pocetSkladeb);
         System.out.println("    " + getComment());
+    }
+
+    @Override
+    public void setVlastnim(boolean vlastnim) {
+        setVlastnim(vlastnim);
     }
 }

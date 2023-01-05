@@ -6,7 +6,7 @@
  * @author Luboš Pavlíček
  * @version  září 2005
  */
-public class Video extends Polozka
+public class Video extends AbastractMedium
 {
 
     private String reziser;
@@ -40,4 +40,6 @@ public class Video extends Polozka
         System.out.println("    " + reziser);
         System.out.println("    " + getComment());
     }
+
+
 }

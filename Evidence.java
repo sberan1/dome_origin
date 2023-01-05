@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Iterator;
 
 /**
  * Třída slouží pro evidenci CD a videa - pro ukládání instancí tříd CD a Video.

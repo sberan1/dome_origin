@@ -27,6 +27,12 @@ public class TestovaciData
             new CD("Enya (The Celts)", "Enya", 15, 39  ),
             new CD("The Memory of Trees", "Enya",11, 43)
         };
+
+    private static Kniha [] seznamKnih =
+            {
+                    new Kniha("Ekonomie","Rober Holman",451),
+                    new Kniha("Harry Potter a Kámen mudrců","Joanne K. Rowlingová",336)
+            };
         
     private static int cdUkazatel=0;
     
@@ -51,6 +57,9 @@ public class TestovaciData
         }
         for (Video video : seznamVidei){
             temp.addPolozka(video);
+        }
+        for (Kniha kniha : seznamKnih){
+            temp.addPolozka(kniha);
         }
        
         return temp;
